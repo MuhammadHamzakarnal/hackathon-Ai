@@ -1,0 +1,168 @@
+/**
+ * Physical AI & Humanoid Robotics Textbook – Premium Dark Theme
+ * Matches the homepage perfectly
+ */
+
+:root {
+  --ifm-color-primary: #635bff;
+  --ifm-color-primary-dark: #5048e6;
+  --ifm-color-primary-darker: #443ccf;
+  --ifm-color-primary-darkest: #372ab8;
+  --ifm-color-primary-light: #7a73ff;
+  --ifm-color-primary-lighter: #918aff;
+  --ifm-color-primary-lightest: #b8b3ff;
+  --ifm-background-color: #0f0f1e;
+  --ifm-navbar-height: 74px;
+  --ifm-footer-background-color: #0a0a1a;
+}
+
+/* =============== NAVBAR – PREMIUM GLOW =============== */
+.navbar {
+  background: linear-gradient(135deg, #1a1a3a 0%, #2d1b69 50%, #0f0f23 100%) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(120, 100, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  padding: 0 2rem !important;
+  height: var(--ifm-navbar-height);
+  z-index: 1000;
+}
+
+.navbar__brand {
+  font-weight: 900;
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, #a8c0ff, #e0c3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.5px;
+}
+
+.navbar__item, .navbar__link {
+  color: #e0e0ff !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: #c3a8ff !important;
+  background: rgba(120, 100, 255, 0.15);
+  border-radius: 8px;
+  padding: 8px 14px;
+}
+
+/* =============== SIDEBAR – GLASS EFFECT =============== */
+.theme-doc-sidebar-container {
+  background: rgba(15, 15, 35, 0.85) !important;
+  backdrop-filter: blur(16px);
+  border-right: 1px solid rgba(120, 100, 255, 0.2);
+}
+
+.menu__link {
+  color: #d0d0ff !important;
+  border-radius: 10px;
+  margin: 4px 8px;
+  transition: all 0.25s ease;
+}
+
+.menu__link:hover,
+.menu__link--active {
+  background: rgba(100, 80, 255, 0.25) !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+/* =============== MAIN CONTENT – CLEAN & MODERN =============== */
+.theme-doc-markdown {
+  color: #e0e0ff;
+  line-height: 1.8;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  background: linear-gradient(90deg, #9dc4ff, #caa8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+/* =============== FOOTER – DEEP SPACE =============== */
+.footer {
+  background: linear-gradient(to top, #0a0a1a, #1a1a3a) !important;
+  border-top: 1px solid rgba(120, 100, 255, 0.2);
+  padding: 4rem 2rem !important;
+  color: #b8b8ff !important;
+}
+
+.footer__title {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.footer__link-item {
+  color: #c0c0ff !important;
+  transition: all 0.3s ease;
+}
+
+.footer__link-item:hover {
+  color: #ffeb3b !important;
+  text-shadow: 0 0 10px rgba(255, 235, 59, 0.5);
+}
+
+/* =============== CODE BLOCKS – CYBERPUNK STYLE =============== */
+code {
+  background: rgba(100, 80, 255, 0.15) !important;
+  color: #e0c3ff !important;
+  padding: 2px 8px !important;
+  border-radius: 6px;
+  border: 1px solid rgba(120, 100, 255, 0.3);
+}
+
+pre {
+  background: #0f0f23 !important;
+  border: 1px solid rgba(120, 100, 255, 0.3) !important;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* =============== BUTTONS & LINKS =============== */
+.button.button--secondary {
+  background: linear-gradient(135deg, #5b6fff, #a855ff);
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+
+.button.button--secondary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(100, 100, 255, 0.4);
+}
+
+/* =============== SCROLLBAR – THIN & GLOWY =============== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#635bff, #a855ff);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#7a73ff, #c955ff);
+}
+
+/* =============== MOBILE FIXES =============== */
+@media (max-width: 966px) {
+  .navbar {
+    padding: 0 1rem !important;
+  }
+  .navbar__brand {
+    font-size: 1.3rem;
+  }
+}
