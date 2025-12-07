@@ -8,7 +8,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://MuhammadHamzakarnal.github.io',
-  baseUrl: '/physical-ai-humanoid-robotics-textbook/',
+  baseUrl: '/',
 
   organizationName: 'MuhammadHamzakarnal',
   projectName: 'physical-ai-humanoid-robotics-textbook',
